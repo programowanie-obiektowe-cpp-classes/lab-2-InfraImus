@@ -4,6 +4,7 @@
 
 class ResourceManager
 {
+public:
 	ResourceManager() : res{new Resource {}} {}
 	
 	ResourceManager(const ResourceManager& rm) : res{new Resource {*(rm.res)}} {}
