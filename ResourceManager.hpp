@@ -17,6 +17,8 @@ class ResourceManager
 	{
 		delete res;
 		res = new Resource {*(rm.res)};
+
+		return *this;
 	}
 	
 	Resource* res;
