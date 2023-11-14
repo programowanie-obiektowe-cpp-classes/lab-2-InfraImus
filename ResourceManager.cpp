@@ -20,7 +20,8 @@ class ResourceManager
 	}
 	
 	Resource res;
-	
+
+public:
 	double get()
 	{
 		return res.get();
